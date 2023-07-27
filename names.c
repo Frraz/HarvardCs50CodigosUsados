@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    char names[] = {"Bill", "Charlie", "Fred", "George", "Ginny", "Percy", "Ron"};
+    const char *names[] = {"Bill", "Charlie", "Fred", "George", "Ginny", "Percy", "Ron"};
 
     for (int i = 0; i < 7; i++)
     {
-        if (strcmp(names[i], "Ron"))
+        if (strcmp(names[i], "RON") == 0)
         {
             printf("Found\n");
             return 0;
