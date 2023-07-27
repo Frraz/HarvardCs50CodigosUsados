@@ -2,6 +2,12 @@
 #include <string.h>
 
 
+typedef struct phonebook
+{
+    
+};
+
+
 int main(void)
 {
     const char *names[] = {"Brian", "David"};
